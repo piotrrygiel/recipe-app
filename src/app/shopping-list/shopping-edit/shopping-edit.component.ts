@@ -19,6 +19,6 @@ export class ShoppingEditComponent {
       this.amountInputRef.nativeElement.value
     );
 
-    this.shoppingListService.addIngredient(newIngredient)
+    this.shoppingListService.addIngredient(newIngredient);
   }
 }
