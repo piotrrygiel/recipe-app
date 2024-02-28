@@ -18,6 +18,6 @@ export class RecipesComponent implements OnInit {
       (recipe: Recipe) => {
         this.chosen_recipe = recipe;
       }
-    )
+    );
   }
 }
