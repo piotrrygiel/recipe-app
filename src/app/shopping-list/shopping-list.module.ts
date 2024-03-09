@@ -13,7 +13,7 @@ import {ShoppingEditComponent} from "./shopping-edit/shopping-edit.component";
   ],
   imports: [
     RouterModule.forChild([
-      { path: 'shopping-list', component: ShoppingListComponent }
+      { path: '', component: ShoppingListComponent }
     ]),
     FormsModule,
     SharedModule
